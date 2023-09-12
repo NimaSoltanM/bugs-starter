@@ -6,7 +6,7 @@ export default function SearchBar({ onChange }) {
       <input
         type='text'
         onChange={(e) => onChange(e.target.value)}
-        placeholder='Search bugs...'
+        placeholder='جستوجوی باگ ها ...'
       />
     </div>
   );
